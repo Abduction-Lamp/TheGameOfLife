@@ -1,0 +1,38 @@
+#pragma once 
+
+#include <Windows.h>
+#include "resource.h"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+IDI_MAIN_ICON		ICON	"whlife.ico"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+IDRC_MAIN_MENU		MENU 
+BEGIN
+	POPUP	"&Файл"
+	BEGIN
+		MENUITEM	"&Открыть"		IDRC_MENU_OPEN
+		MENUITEM	"&Сохранить"	IDRC_MENU_SAVE			GRAYED
+		MENUITEM	SEPARATOR
+		MENUITEM	"&Выход"		IDRC_MENU_EXIT
+	END
+	MENUITEM	"&О программе"		IDRC_MENU_ABOUT
+END
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+IDC_DIALOGTESTWIN32	ACCELERATORS
+BEGIN
+    "?",            IDRC_MENU_ABOUT,              ASCII,  ALT
+    "/",            IDRC_MENU_ABOUT,              ASCII,  ALT
+END

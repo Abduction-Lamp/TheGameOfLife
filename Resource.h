@@ -1,0 +1,32 @@
+#pragma once
+
+#define IDI_MAIN_ICON			100
+
+
+#define IDRC_MAIN_MENU			200
+#define IDRC_MENU_OPEN			201
+#define IDRC_MENU_SAVE			202
+#define IDRC_MENU_EXIT			203
+
+#define IDRC_MENU_ABOUT			300
+#define IDC_DIALOGTESTWIN32		301
+
+#define IDRC_TREEVIEW			400
+
+#define IDRC_BUTTON_CLEAR		500
+#define IDRC_BUTTON_RANDOM		501
+#define IDRC_BUTTON_PLAY_PAUSE	502
+
+#define IDRC_TRACK_SPEED		503
+#define IDRC_TRACK_SIZE			504
+
+
+#define IDRC_MAIN_STATUS		1000
+
+#define IDRC_LABEL				1001
+
+
+#define SCALE_MESSAGE			7000
+#define RANDOM_MESSAGE			7001
+#define CLEAR_MESSAGE			7002
+
