@@ -148,7 +148,7 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
 			if (playFlag == PLAY)
 			{
 				KillTimer(ghWnd.board, 1);
-				SetTimer(ghWnd.board, 1, 410 - 4*speed, NULL);
+				SetTimer(ghWnd.board, 1, 1010 - 10*speed, NULL);
 			}
 		}
 		if ((HWND)lParam == ghWnd.track_size)
@@ -181,7 +181,7 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
 				EnableWindow(ghWnd.button_clear, FALSE);
 				EnableWindow(ghWnd.button_random, FALSE);
 
-				SetTimer(ghWnd.board, 1, 410 - 4*speed, NULL);
+				SetTimer(ghWnd.board, 1, 1010 - 10*speed, NULL);
 			}
 			else
 			{
